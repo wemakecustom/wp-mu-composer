@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * Plugin Name: Composer
+ * Plugin URI: https://github.com/wemakecustom/wp-mu-composer
+ * Author: WeMakeCustom
+ * Author URI: http://www.wemakecustom.com/
+ */
+
 $path = dirname(ABSPATH);
 $autoloader = "$path/vendor/autoload.php";
 
