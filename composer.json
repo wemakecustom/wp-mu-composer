@@ -1,0 +1,20 @@
+{
+    "name": "wemakecustom/wp-mu-composer",
+    "type": "wordpress-muplugin",
+    "description": "MU Loader to auto-require composer in Wordpress",
+    "keywords": ["wordpress","plugins"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "WeMakeCustom",
+            "email": "info@wemakecustom.com",
+            "homepage": "http://www.wemakecustom.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "composer"
+    }
+}
